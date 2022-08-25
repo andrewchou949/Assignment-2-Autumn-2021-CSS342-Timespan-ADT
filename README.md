@@ -1,6 +1,10 @@
 TimeSpan
 Goals: Understanding operator overloading
 
+Assignment 2 for CSS 342 Autumn Quarter 2021 UWB
+
+This assignment 2 simulates a Timespan ADT class to illustrate the basic elements of class such as overloading operators, constructor, copy constructor, destructor, basic getters, setters, etc.
+
 Design and implement TimeSpan class which represents a duration in hours, minutes and seconds.
 
 Displayed       Meaning
@@ -11,6 +15,7 @@ The seconds and minutes have to be between 0 and 59. The hours can be 0 to any n
 TimeSpan(1.5, -10, 93)	same as 1:21:33
 TimeSpan(1.5)		    same as 1:30:00
 Compile and Run
+
 # quick compile for testing
 g++ -g -std=c++11 -Wall -Wextra -Wno-sign-compare *.cpp
 
